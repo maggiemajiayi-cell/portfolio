@@ -1,0 +1,72 @@
+.skills-section { background: var(--bg-secondary); }
+
+.section-header { margin-bottom: 3rem; }
+
+.skills-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Skill Bars */
+.skill-bars-col { display: flex; flex-direction: column; gap: 1.5rem; }
+.skill-bar-item {}
+.skill-bar-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.skill-bar-name { font-size: 0.9rem; font-weight: 500; color: var(--text-primary); }
+.skill-bar-pct  { font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); font-family: var(--font-mono); }
+.skill-bar-track {
+  height: 8px;
+  background: rgba(255,255,255,0.07);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+.skill-bar-fill {
+  height: 100%;
+  width: 0;
+  border-radius: var(--radius-full);
+  background: var(--bar-color, var(--accent));
+  transition: width 1.2s cubic-bezier(0.4,0,0.2,1);
+  box-shadow: 0 0 10px var(--bar-color, var(--accent));
+}
+
+/* Categories */
+.skill-categories { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.skill-cat { padding: 1.2rem; }
+.cat-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+.cat-icon  { font-size: 1.1rem; }
+.cat-label { font-weight: 700; font-size: 0.95rem; }
+.cat-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.skill-pill {
+  padding: 0.28rem 0.75rem;
+  border-radius: var(--radius-full);
+  background: rgba(139,92,246,0.1);
+  border: 1px solid rgba(139,92,246,0.2);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+.skill-pill:hover {
+  background: rgba(139,92,246,0.2);
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .skills-layout { grid-template-columns: 1fr; }
+  .skill-categories { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 500px) {
+  .skill-categories { grid-template-columns: 1fr; }
+}
