@@ -12,20 +12,20 @@ const skillBars = [
 
 const categories = [
   {
-    icon: '💻', label: 'Programming',
-    skills: ['C', 'C++', 'Python', 'JavaScript', 'SQL/SQLite', 'Arduino', 'GDScript', 'Verilog', 'HTML'],
+    icon: '💻', label: 'Languages',
+    skills: ['C', 'C++', 'Python', 'SQL', 'JavaScript', 'Verilog'],
   },
   {
-    icon: '🔧', label: 'Embedded & Hardware',
-    skills: ['ESP32', 'EMG Sensors', 'Pulse Sensors', 'Motion Sensors', 'Circuit Debugging', 'Soldering', 'Arduino IDE'],
+    icon: '🔧', label: 'Embedded Systems',
+    skills: ['ESP32', 'Arduino', 'Sensor Integration', 'Circuit Debugging', 'Soldering'],
   },
   {
     icon: '🛠️', label: 'Tools',
-    skills: ['Git', 'Visual Studio', 'DBeaver', 'Fusion 360', 'Blender', 'KiCad', 'Excel'],
+    skills: ['Git', 'Arduino IDE', 'STM32 Cube IDE', 'Visual Studio', 'DBeaver', 'Excel', 'KiCad', 'Fusion 360', 'Blender'],
   },
   {
-    icon: '🌐', label: 'Languages',
-    skills: ['English', 'Mandarin Chinese', 'French'],
+    icon: '🌐', label: 'Other / Spoken',
+    skills: ['HTML', 'GDScript', 'SQLite', 'English', 'Mandarin Chinese', 'French'],
   },
 ];
 

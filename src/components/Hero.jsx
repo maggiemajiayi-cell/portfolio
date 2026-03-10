@@ -44,9 +44,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-desc">
-            Hands-on experience in software and hardware development, including embedded systems,
-            sensor integration, and game-jam projects. Quick learner with a strong ability to
-            build solutions under tight deadlines.
+            Hands-on experience building embedded systems, integrating sensors, and developing interactive hardware–software prototypes. Experienced with ESP32 development, circuit debugging, and rapid prototyping.
           </p>
 
           <div className="hero-cta">

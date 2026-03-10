@@ -3,7 +3,7 @@ import './About.css';
 
 const timeline = [
   { year: '2025', title: 'BASc Computer Engineering @ University of Waterloo', desc: 'Co-op program in Ontario, Canada. Expected graduation 2030.' },
-  { year: 'Feb 2026', title: 'MakeUofT 2026 Hardware Hackathon — Make_Flora', desc: 'Built an interactive system using ESP32-CAM + Roboflow flower detection to trigger real-time music responses at Canada\'s largest hardware makeathon.' },
+  { year: 'Feb 2026', title: 'MakeUofT 2026 Hardware Competition — Make_Flora', desc: 'Built an interactive system using ESP32-CAM + Roboflow flower detection to trigger real-time music responses at Canada\'s largest hardware makeathon.' },
   { year: 'Feb 2025', title: 'UW Game Jam — Wander_OvO', desc: 'Led a team to design and ship a platformer game in 72 hours using Godot/GDScript. Published on itch.io.' },
   { year: 'Sept–Dec 2025', title: 'EMG Fabric — Biotron Design Team', desc: 'Designed low-noise EMG circuits, improved signal clarity with optimized wiring, grounding, and precision soldering.' },
 ];
@@ -30,9 +30,9 @@ export default function About() {
           <p className="section-label">Who I Am</p>
           <h2 className="section-title">Building things that<br /><span className="grad-text">actually work</span></h2>
           <p className="section-subtitle" style={{ marginBottom: '1.5rem' }}>
-            I&apos;m a Computer Engineering student at the University of Waterloo with
-            hands-on experience in embedded systems, sensor integration, and rapid
-            prototyping. I love bridging hardware and software to build real, tangible systems.
+            I&apos;m a Computer Engineering student at the University of Waterloo with hands-on
+            experience building embedded systems, integrating sensors, and developing interactive
+            hardware–software prototypes. I enjoy combining low-level functionality with tangible feedback.
           </p>
           <p className="section-subtitle">
             Outside of engineering, I&apos;m a competitive rower, a published school newspaper

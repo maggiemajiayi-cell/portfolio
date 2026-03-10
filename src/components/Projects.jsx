@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     title: 'Make_Flora',
-    desc: 'MakeUofT 2026 hardware hackathon project. Built an interactive system using ESP32-CAM and Roboflow flower detection to trigger dynamic music and real-time physical feedback via I2S audio output.',
+    desc: 'MakeUofT 2026 hardware project. Built an interactive system using ESP32-CAM and Roboflow flower detection to trigger dynamic music and real-time physical feedback via I2S audio output.',
     tags: ['C++', 'ESP32', 'Computer Vision', 'Roboflow'],
     category: 'hardware',
     gradient: 'linear-gradient(135deg, #84cc16 0%, #06b6d4 100%)',
