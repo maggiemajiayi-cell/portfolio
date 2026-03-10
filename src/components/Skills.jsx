@@ -2,12 +2,12 @@ import { useEffect, useRef } from 'react';
 import './Skills.css';
 
 const skillBars = [
-  { name: 'C / C++',             pct: 90, color: '#8b5cf6' },
-  { name: 'Python',              pct: 82, color: '#f59e0b' },
-  { name: 'Embedded Systems',    pct: 85, color: '#06b6d4' },
-  { name: 'JavaScript / HTML',   pct: 75, color: '#61dafb' },
-  { name: 'SQL / SQLite',        pct: 72, color: '#84cc16' },
-  { name: 'GDScript / Godot',    pct: 70, color: '#ec4899' },
+  { name: 'C / C++',             pct: 90, color: '#10b981' }, // Emerald green
+  { name: 'Python',              pct: 82, color: '#ec4899' }, // Pink
+  { name: 'Embedded Systems',    pct: 85, color: '#34d399' }, // Lighter green
+  { name: 'JavaScript / HTML',   pct: 75, color: '#f472b6' }, // Light pink
+  { name: 'SQL / SQLite',        pct: 72, color: '#059669' }, // Darker emerald
+  { name: 'GDScript / Godot',    pct: 70, color: '#be185d' }, // Darker pink
 ];
 
 const categories = [
