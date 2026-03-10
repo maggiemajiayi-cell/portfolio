@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './Hero.css';
 
 const roles = [
-  'Computer engineering student',
+  '2D, ACG lover',
   'Full stack developer, software to hardware',
 ];
 
