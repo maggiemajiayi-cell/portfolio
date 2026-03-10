@@ -4,7 +4,7 @@ import './Projects.css';
 const projects = [
   {
     id: 1,
-    title: 'Make_Flora',
+    title: 'Make Flora — Computer Vision Hardware Prototype',
     desc: 'MakeUofT 2026 hardware project. Built an interactive system using ESP32-CAM and Roboflow flower detection to trigger dynamic music and real-time physical feedback via I2S audio output.',
     tags: ['C++', 'ESP32', 'Computer Vision', 'Roboflow'],
     category: 'hardware',
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Wander_OvO',
+    title: 'Wander OvO — 2D Platformer Game',
     desc: 'Led a small team to design and build a platformer game in a 72-hour sprint at UW Game Jam. Implemented physics and scene/state transitions in GDScript. Published on itch.io.',
     tags: ['Godot', 'GDScript', 'Git', 'Game Dev'],
     category: 'software',
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'EMG Fabric',
+    title: 'EMG Fabric — Biotron Design Team',
     desc: 'Biotron Design Team project. Designed low-noise circuit connections for EMG signal clarity. Reduced interference through optimized wiring, grounding, sensor placement, and precision soldering.',
     tags: ['C++', 'ESP32', 'Arduino IDE', 'EMG Sensors'],
     category: 'hardware',
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Delirium Detection Wristband',
+    title: 'Delirium Detection Wristband — Embedded System',
     desc: 'Arduino-based wearable integrating pulse and motion sensors to identify early physiological indicators of delirium. Used SQLite to store movement patterns, IR values, and warning signals for debugging.',
     tags: ['C++', 'ESP32', 'SQLite', 'Embedded Systems'],
     category: 'hardware',
