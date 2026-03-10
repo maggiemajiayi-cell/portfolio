@@ -68,9 +68,10 @@ export default function Hero() {
           <img src="./avatar.png" alt="Maggie Ma" className="avatar-img" />
 
           {/* Floating chips */}
-          <div className="float-chip chip-react">⚡ ESP32</div>
-          <div className="float-chip chip-node">🎮 Godot</div>
-          <div className="float-chip chip-ts">🔷 C++</div>
+          <div className="float-chip chip-godot">🎮 Godot</div>
+          <div className="float-chip chip-cpp">🔷 C++</div>
+          <div className="float-chip chip-js">🟨 JavaScript</div>
+          <div className="float-chip chip-ide">🛠️ IDE</div>
         </div>
       </div>
 
