@@ -25,7 +25,7 @@ const categories = [
   },
   {
     icon: '🌐', label: 'Other / Spoken',
-    skills: ['HTML', 'GDScript', 'SQLite', 'English', 'Mandarin Chinese', 'French'],
+    skills: ['HTML', 'GDScript', 'SQLite', 'English', 'Mandarin Chinese'],
   },
 ];
 
