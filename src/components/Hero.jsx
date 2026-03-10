@@ -2,10 +2,8 @@ import { useState, useEffect } from 'react';
 import './Hero.css';
 
 const roles = [
-  'Computer Engineering Student',
-  'Embedded Systems Builder',
-  'Hardware Hacker',
-  'Game Developer',
+  'Computer engineering student',
+  'Full stack developer, software to hardware',
 ];
 
 export default function Hero() {
