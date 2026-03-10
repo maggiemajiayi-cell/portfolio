@@ -2,11 +2,11 @@ import { useEffect, useRef } from 'react';
 import './About.css';
 
 const timeline = [
-  { year: '2025', title: 'BASc Computer Engineering @ University of Waterloo', desc: 'Co-op program in Ontario, Canada. Expected graduation 2030.' },
   { year: 'Feb. 2026', title: 'Make Flora — Computer Vision Hardware Prototype', desc: 'Built an interactive system using ESP32-CAM + Roboflow flower detection to trigger real-time music responses.' },
+  { year: 'Feb. 2026', title: 'Wander OvO — 2D Platformer Game', desc: 'Led a team to design and ship a platformer game using Godot/GDScript. Published on itch.io.' },
   { year: 'Oct. 2025 – Nov. 2025', title: 'Delirium Detection Wristband — Embedded System', desc: 'Arduino-based wearable integrating pulse and motion sensors to detect early physiological indicators of delirium.' },
   { year: 'Sept. 2025 – Dec. 2025', title: 'EMG Fabric — Biotron Design Team', desc: 'Designed low-noise EMG circuits, improved signal clarity with optimized wiring, grounding, and precision soldering.' },
-  { year: 'Feb. 2026', title: 'Wander OvO — 2D Platformer Game', desc: 'Led a team to design and ship a platformer game using Godot/GDScript. Published on itch.io.' },
+  { year: '2025 – 2030', title: 'BASc Computer Engineering @ University of Waterloo', desc: 'Co-op program in Ontario, Canada. Expected graduation 2030.' },
 ];
 
 export default function About() {
