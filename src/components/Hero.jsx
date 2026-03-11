@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <p className="hero-desc">
-            Hands-on experience building embedded systems, integrating sensors, and developing interactive hardware–software prototypes. Experienced with ESP32 development, circuit debugging, and rapid prototyping.
+                            Computer Engineering student at the University of Waterloo with hands-on experience in embedded systems, C/C++, and hardware-software integration. I've built medical wearables, computer vision prototypes, and 2D games - I learn fast, ship real projects, and thrive under tight deadlines.
           </p>
 
           <div className="hero-cta">
