@@ -158,9 +158,9 @@ export default function Projects() {
               <span className="project-emoji">🕒</span>
             </div>
             <div className="project-body">
-              <h3 className="project-title">Clockmaker&apos;s Curse</h3>
+              <h3 className="project-title">The Thirteenth Chime</h3>
               <p className="project-desc">
-                Welcome to Clockmaker&apos;s Curse, an ongoing room escape adventure. Trapped in a workshop where time behaves strangely, you must solve intricate puzzles and uncover hidden objects to find your way out.
+                Welcome to The Thirteenth Chime, an ongoing room escape adventure. Trapped in a workshop where time has slipped beyond the twelve familiar chimes, you must solve intricate puzzles and uncover hidden objects to find your way out.
               </p>
               <div className="project-tags">
                 <span className="skill-pill">Ongoing</span>
@@ -168,7 +168,7 @@ export default function Projects() {
                 <span className="skill-pill">Web Dev</span>
               </div>
               <div className="project-links">
-                <a href="https://maggiemajiayi-cell.github.io/clockmakers-curse/" className="proj-link proj-live" target="_blank" rel="noopener noreferrer">
+                <a href="https://maggiemajiayi-cell.github.io/the-thirteenth-chime/clockwork/" className="proj-link proj-live" target="_blank" rel="noopener noreferrer">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
                   Play Now
                 </a>
