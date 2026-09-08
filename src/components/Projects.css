@@ -43,6 +43,7 @@
   position: relative;
   overflow: hidden;
 }
+.project-image { width: 100%; height: 100%; object-fit: cover; }
 .project-emoji { font-size: 3.5rem; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3)); }
 .featured-badge {
   position: absolute;
@@ -72,6 +73,10 @@
   padding: 0.4rem 0.9rem;
   border-radius: var(--radius-full);
   border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
   transition: all var(--transition);
 }
 .proj-link:hover { color: var(--text-primary); border-color: var(--accent); background: rgba(139,92,246,0.1); }

@@ -10,7 +10,7 @@ export default function Footer() {
           <span className="logo-bracket">/&gt;</span>
         </a>
         <p className="footer-copy">
-          © {new Date().getFullYear()} Maggie Ma. Built with ⚛️ React &amp; ❤️
+          © {new Date().getFullYear()} Maggie Ma.
         </p>
         <a href="#home" className="back-top" aria-label="Back to top">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="20" height="20">
