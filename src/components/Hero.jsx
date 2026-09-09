@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import './Hero.css';
 
 const roles = [
-  'Full stack developer, software to hardware',
-  '2D, ACG lover',
+  'Full-stack developer, from software to hardware',
+  'Robotics, AI & interactive systems builder',
+  '2D game developer & ACG lover',
 ];
 
 export default function Hero() {
@@ -42,7 +43,10 @@ export default function Hero() {
           </div>
 
           <p className="hero-desc">
-                            Computer Engineering student at the University of Waterloo with hands-on experience in embedded systems, C/C++, and hardware-software integration. I've built medical wearables, computer vision prototypes, and 2D games - I learn fast, ship real projects, and thrive under tight deadlines.
+            Computer Engineering student at the University of Waterloo building across embedded systems,
+            robotics simulation, AI-powered applications, and full-stack development. From medical wearables
+            and UAV testing platforms to voice-first tools and 2D games, I learn fast, ship real projects,
+            and thrive under tight deadlines.
           </p>
 
           <div className="hero-cta">

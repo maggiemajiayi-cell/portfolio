@@ -3,6 +3,8 @@ import './About.css';
 
 const timeline = [
   { year: '2025 – 2030', title: 'BASc Computer Engineering @ University of Waterloo', desc: 'Co-op program in Ontario, Canada. Expected graduation 2030.' },
+  { year: 'Jul. 2026 – Aug. 2026', title: 'Tongzhou — Alumni Association Mini Program', desc: 'Built an internal React platform and refined OpenHex AI agents for alumni record lookup, information summarization, and service recommendations.' },
+  { year: 'May 2026 – Aug. 2026', title: 'UAV Research Intern — Tongji University', desc: 'Developed a virtual–real UAV testing platform using ROS, AirSim, Unreal Engine, and motion capture for autonomous navigation research.' },
   { year: 'Mar. 2026', title: 'Sprout — Voice-First English Learning AI', desc: 'Developed a voice-first English learning app with real-time speech processing and Google Gemini AI for refugees and newcomers.' },
   { year: 'Feb. 2026', title: 'Make Flora — Computer Vision Hardware Prototype', desc: 'Built an interactive system using ESP32-CAM + Roboflow flower detection to trigger real-time music responses.' },
   { year: 'Feb. 2026', title: 'Wander OvO — 2D Platformer Game', desc: 'Led a team to design and ship a platformer game using Godot/GDScript. Published on itch.io.' },
@@ -33,8 +35,9 @@ export default function About() {
           <h2 className="section-title">Building things that<br /><span className="grad-text">actually work</span></h2>
           <p className="section-subtitle" style={{ marginBottom: '1.5rem' }}>
             I&apos;m a Computer Engineering student at the University of Waterloo with hands-on
-            experience building embedded systems, integrating sensors, and developing interactive
-            hardware–software prototypes. I enjoy combining low-level functionality with tangible feedback.
+            experience spanning embedded systems, robotics simulation, and AI-powered applications.
+            I enjoy connecting sensors and low-level control with computer vision, intelligent agents,
+            and practical interfaces to build systems that work in the real world.
           </p>
           <p className="section-subtitle">
             Outside of engineering, I&apos;m a competitive rower, a published school newspaper

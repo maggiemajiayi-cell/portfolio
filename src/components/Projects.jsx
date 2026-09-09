@@ -18,7 +18,7 @@ const projects = [
   {
     id: 7,
     title: 'UAV Research Intern — Tongji University',
-    desc: 'Developing a virtual–real UAV testing platform for autonomous navigation and obstacle avoidance. Built AirSim and Unreal Engine scenarios, integrated ROS with Nokov motion capture for closed-loop flight tests, and explored reinforcement learning and multi-agent trajectory prediction.',
+    desc: 'Developed a virtual–real UAV testing platform for autonomous navigation and obstacle avoidance. Built AirSim and Unreal Engine simulation scenarios, integrated ROS with Nokov motion capture for closed-loop flight tests, and investigated reinforcement learning and multi-agent trajectory prediction.',
     tags: ['ROS', 'Unreal Engine', 'AirSim', 'Reinforcement Learning'],
     category: 'hardware',
     gradient: 'linear-gradient(135deg, #2563eb 0%, #0f172a 100%)',
