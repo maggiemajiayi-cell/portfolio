@@ -3,29 +3,29 @@ import './Skills.css';
 
 const skillBars = [
   { name: 'C / C++',             pct: 90, color: '#10b981' }, // Emerald green
-  { name: 'Python',              pct: 82, color: '#ec4899' }, // Pink
+  { name: 'Python / AI',         pct: 82, color: '#ec4899' }, // Pink
   { name: 'Embedded Systems',    pct: 85, color: '#34d399' }, // Lighter green
-  { name: 'JavaScript / HTML',   pct: 75, color: '#f472b6' }, // Light pink
-  { name: 'SQL / SQLite',        pct: 72, color: '#059669' }, // Darker emerald
+  { name: 'JavaScript / React',  pct: 78, color: '#f472b6' }, // Light pink
+  { name: 'SQL / SQLite',        pct: 75, color: '#059669' }, // Darker emerald
   { name: 'GDScript / Godot',    pct: 70, color: '#be185d' }, // Darker pink
 ];
 
 const categories = [
   {
     icon: '💻', label: 'Languages',
-    skills: ['C', 'C++', 'Python', 'SQL', 'JavaScript', 'Verilog'],
+    skills: ['C', 'C++', 'Python', 'SQL', 'JavaScript', 'Verilog', 'GDScript'],
   },
   {
-    icon: '🔧', label: 'Embedded Systems',
-    skills: ['ESP32', 'Arduino', 'Sensor Integration', 'Circuit Debugging', 'Soldering'],
+    icon: '🤖', label: 'Embedded & Robotics',
+    skills: ['ESP32', 'Arduino', 'ROS', 'AirSim', 'Sensor Integration', 'Circuit Debugging', 'Soldering'],
+  },
+  {
+    icon: '🧠', label: 'Web & AI',
+    skills: ['React', 'Next.js', 'OpenHex', 'AI Agents', 'Gemini AI', 'Reinforcement Learning', 'Computer Vision', 'Roboflow'],
   },
   {
     icon: '🛠️', label: 'Tools',
-    skills: ['Git', 'Arduino IDE', 'STM32 Cube IDE', 'Visual Studio', 'DBeaver', 'Excel', 'KiCad', 'Fusion 360', 'Blender'],
-  },
-  {
-    icon: '🌐', label: 'Other / Spoken',
-    skills: ['HTML', 'GDScript', 'SQLite', 'English', 'Mandarin Chinese'],
+    skills: ['Git', 'Unreal Engine', 'Godot', 'Arduino IDE', 'STM32CubeIDE', 'DBeaver', 'KiCad', 'Fusion 360', 'Blender'],
   },
 ];
 
