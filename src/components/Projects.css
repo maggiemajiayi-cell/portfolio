@@ -62,7 +62,7 @@
 .project-desc  { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 1rem; flex: 1; }
 .project-tags  { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1.2rem; }
 
-.project-links { display: flex; gap: 0.75rem; }
+.project-links { display: flex; flex-wrap: wrap; gap: 0.75rem; }
 .proj-link {
   display: inline-flex;
   align-items: center;

@@ -30,15 +30,16 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Eight For Long — Time-Management Puzzle Game',
-    desc: 'Trapped in a sealed underwater facility, you have eight minutes to escape. Every interaction costs time, forcing you to solve puzzles, help the crew, and decide who gets left behind.',
-    tags: ['Game Dev', 'Puzzle', 'Narrative', 'Time Management'],
+    title: 'Eight For Long — Room Escape Game',
+    desc: 'Built in 96 hours for GMTK Game Jam 2026, this room escape game traps you in a sealed underwater facility with eight minutes to get out. Every interaction costs time, forcing you to solve puzzles, help the crew, and decide who gets left behind.',
+    tags: ['Game Jam', 'Room Escape', 'Narrative', 'Time Management'],
     category: 'software',
     gradient: 'linear-gradient(135deg, #0f172a 0%, #0891b2 100%)',
     emoji: '⏳',
     image: `${import.meta.env.BASE_URL}eight-for-long-banner.jpg`,
     github: 'https://github.com/NPC-No-1/Eight-Minutes',
     live: 'https://maggieeeeem.itch.io/eight-for-long',
+    walkthrough: 'https://www.bilibili.com/video/BV1Zzum6WEMg/',
     featured: true,
   },
   {
@@ -207,6 +208,12 @@ export default function Projects() {
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>
                       {copiedProject === p.id ? 'Copied!' : 'Copy Mini Program Link'}
                     </button>
+                  )}
+                  {p.walkthrough && (
+                    <a href={p.walkthrough} className="proj-link proj-live" aria-label="Walkthrough" target="_blank" rel="noopener noreferrer">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"><circle cx="12" cy="12" r="10" /><polygon points="10 8 16 12 10 16 10 8" /></svg>
+                      Walkthrough
+                    </a>
                   )}
                   {p.writeup && (
                     <a href={p.writeup} className="proj-link proj-live" aria-label="Writeup" target="_blank" rel="noopener noreferrer">

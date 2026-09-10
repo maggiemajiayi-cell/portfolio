@@ -4,6 +4,7 @@ import './About.css';
 const timeline = [
   { year: '2025 – 2030', title: 'BASc Computer Engineering @ University of Waterloo', desc: 'Co-op program in Ontario, Canada. Expected graduation 2030.' },
   { year: 'Jul. 2026 – Aug. 2026', title: 'Tongzhou — Alumni Association Mini Program', desc: 'Built an internal React platform and refined OpenHex AI agents for alumni record lookup, information summarization, and service recommendations.' },
+  { year: 'Jul. 22–26, 2026', title: 'Eight For Long — GMTK Game Jam 2026', desc: 'Designed and shipped a room escape game in 96 hours, turning an eight-minute countdown into the core resource for every puzzle, interaction, and choice.' },
   { year: 'May 2026 – Aug. 2026', title: 'UAV Research Intern — Tongji University', desc: 'Developed a virtual–real UAV testing platform using ROS, AirSim, Unreal Engine, and motion capture for autonomous navigation research.' },
   { year: 'Mar. 2026', title: 'Sprout — Voice-First English Learning AI', desc: 'Developed a voice-first English learning app with real-time speech processing and Google Gemini AI for refugees and newcomers.' },
   { year: 'Feb. 2026', title: 'Make Flora — Computer Vision Hardware Prototype', desc: 'Built an interactive system using ESP32-CAM + Roboflow flower detection to trigger real-time music responses.' },
